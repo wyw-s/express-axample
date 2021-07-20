@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "SET DEBUG=express-example:* && nodemon ./bin/www"
+    "start": "SET DEBUG=express-example:* && node ./cluster.js"
   },
   "dependencies": {
     "connect-flash": "^0.1.1",
@@ -15,6 +15,7 @@
     "express-ejs-layouts": "^2.5.1",
     "express-session": "^1.17.2",
     "http-errors": "~1.6.3",
+    "moment": "^2.29.1",
     "mongodb": "^4.0.0",
     "morgan": "~1.9.1"
   }

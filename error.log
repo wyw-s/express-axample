@@ -1,0 +1,44 @@
+[2021-07-20 10:17:07] /
+ReferenceError: C:\Users\wangy\Desktop\express--example\qwer\views\layout.ejs:7
+    5|     <meta charset="UTF-8">
+    6|     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ >> 7|     <title><%- title %> - Microblog</title>
+    8|     <link rel="stylesheet" type="text/css" href="/stylesheets/bootstrap.min.css">
+    9|     <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    10| </head>
+
+title is not defined
+    at eval (eval at compile (C:\Users\wangy\Desktop\express--example\qwer\node_modules\ejs\lib\ejs.js:633:12), <anonymous>:9:17)
+    at returnedFn (C:\Users\wangy\Desktop\express--example\qwer\node_modules\ejs\lib\ejs.js:668:17)
+    at tryHandleCache (C:\Users\wangy\Desktop\express--example\qwer\node_modules\ejs\lib\ejs.js:254:36)
+    at View.exports.renderFile [as engine] (C:\Users\wangy\Desktop\express--example\qwer\node_modules\ejs\lib\ejs.js:485:10)
+    at View.render (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\view.js:135:8)
+    at tryRender (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\application.js:640:10)
+    at Function.render (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\application.js:592:3)
+    at ServerResponse.render (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\response.js:1008:7)
+    at C:\Users\wangy\Desktop\express--example\qwer\node_modules\express-ejs-layouts\lib\express-layouts.js:113:20
+    at tryHandleCache (C:\Users\wangy\Desktop\express--example\qwer\node_modules\ejs\lib\ejs.js:260:5)
+[2021-07-20 10:18:43] /
+Error: 123
+    at C:\Users\wangy\Desktop\express--example\qwer\routes\index.js:9:9
+    at Layer.handle [as handle_request] (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:47:12)
+[2021-07-20 10:18:44] /
+Error: 123
+    at C:\Users\wangy\Desktop\express--example\qwer\routes\index.js:9:9
+    at Layer.handle [as handle_request] (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:335:12)
+    at next (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\wangy\Desktop\express--example\qwer\node_modules\express\lib\router\index.js:47:12)
